@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimun-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="Imagenes/Logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+    <meta name="description" content="Hacé tu consulta. Consultora en gestión y administración de Recursos Humanos. Estamos en la provincia de Entre Ríos, Paraná. Contactanos para obtener mayor información y asesoramiento integral para tu empresa.">
+</head>
+
+<body id="body-contacto">
+
+    <!-- HEADER -->
+    <header id="header-contacto">
+        <img class="header-contacto-logo" src="Imagenes/Logo.ico" title="logo empresarial" alt="Logo representado por una letra R y una H">
+
+     <!-- NAV MENU DE NAVEGACION -->
+        <nav id="header-nav-contacto">
+            <ul class="header-nav-listas-contacto">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="Index.html">Valores</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- FOOTER CONTACTO -->
+    <footer id="footer-contacto-contenedor">
+        <form enctype="text/plain" action="mailto:fabri_gg@hotmail.com" method="post">
+            <h2>Hacé tu consulta</h2>
+            <label for="nombre">Nombre Completo</label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <label for="numero">Teléfono</label>
+            <input type="tel" name="numero" id="numero" maxlength="18">
+            <label for="texto">Mensaje</label>
+            <textarea class="contacto-textarea" name="texto" id="texto" cols="40" rows="10"></textarea>
+            <input class="contacto-enviar" type="submit" value="Enviar">
+        </form>
+    <footer>
+</body>
+</html>
